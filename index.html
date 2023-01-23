@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="체어마이스터">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="체어마이스터">
+    <meta property="og:url" content="http://www.chairmeister.com/kr/">
+    <meta property="og:image" content="http://www.chairmeister.com/images/common/logo.png">
+    <meta property="og:description" content="체어마이스터">
+    <title>체어마이스터</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_c.png">
+    <link rel="apple-touch-icon" href="images/logo_c.png">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Montserrat:wght@300;500;700&family=Play:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/common.css?v=<?php echo time(); ?>">
+    <link rel="stylesheet" href="css/layout.css?v=<?php echo time(); ?>">
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/ui_common.js?v=<?php echo time(); ?>"></script>
+  </head>
+  <body>
+    <div id="skip_navi">
+      <a href="#container">본문바로가기</a>
+    </div>
+    <div id="wrap">
+      <header id="header">
+        <div class="inner">
+          <div class="header_left">
+            <h1 class="logo">
+              <a href="index.html">로고</a>
+            </h1>
+          </div>
+          <div class="header_top">
+            <div class="top_util_wrap">
+              <div class="quick_list">
+                <a class="line" href="#">Contact</a>
+                <a href="#">Store</a>
+              </div>
+              <div class="sns_wrap">
+                <a href="https://www.youtube.com/channel/UCue2HFsiuUZyWOFAIhYYA5g" target="_blank">
+                  <i class="xi-youtube-play"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCue2HFsiuUZyWOFAIhYYA5g" target="_blank">
+                  <i class="xi-facebook"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCue2HFsiuUZyWOFAIhYYA5g" target="_blank">
+                  <i class="xi-instagram"></i>
+                </a>
+                <a href="https://www.youtube.com/channel/UCue2HFsiuUZyWOFAIhYYA5g" target="_blank">
+                  <i class="xi-naver-square"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="header_bottom">
+            <nav class="gnb_wrap">
+              <ul class="gnb">
+                <li>
+                  <a href="#">Product</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">Task chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Multi chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Stool</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Components</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">Task chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Multi chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Stool</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Story</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">디자인&amp;필라소피</a>
+                    </li>
+                    <li>
+                      <a href="#">생산 및 테스트 설비</a>
+                    </li>
+                    <li>
+                      <a href="#">해외시장 개척</a>
+                    </li>
+                    <li>
+                      <a href="#">국내 해외 납품사례</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Media Center</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">참가전시회</a>
+                    </li>
+                    <li>
+                      <a href="#">보도자료</a>
+                    </li>
+                    <li>
+                      <a href="#">CM갤러리</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Company</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">회사개요</a>
+                    </li>
+                    <li>
+                      <a href="#">연혁</a>
+                    </li>
+                    <li>
+                      <a href="#">사업장 안내</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#">Support</a>
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">Download</a>
+                    </li>
+                    <li>
+                      <a href="#">온&middot;오프라인매장</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+            <div class="bottom_util_wrap">
+              <button type="button" class="btn_lang">이미지</button>
+              <div class="btn_en"><a href="#">EN</a></div>
+              <a class="btn_open" href="#">전체메뉴</a>
+              <a class="btn_open_m" href="#">모바일전체열기</a>
+            </div>
+          </div>
+        </div>
+        <!-- PC 사이트맵  모달 -->
+        <div class="sitemap_modal">
+          <div class="inner">
+            <h2>Site Map</h2>
+            <div class="sitemap_wrap">
+              <ul class="sitemap">
+                <li>Product
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">Task chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Multi chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Stool</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>Components
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">Task chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Multi chair</a>
+                    </li>
+                    <li>
+                      <a href="#">Stool</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>Story
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">디자인&amp;필라소피</a>
+                    </li>
+                    <li>
+                      <a href="#">생산 및 테스트 설비</a>
+                    </li>
+                    <li>
+                      <a href="#">해외시장 개척</a>
+                    </li>
+                    <li>
+                      <a href="#">국내 해외 납품사례</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>Media Center
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">참가전시회</a>
+                    </li>
+                    <li>
+                      <a href="#">보도자료</a>
+                    </li>
+                    <li>
+                      <a href="#">CM갤러리</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>Company
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">회사개요</a>
+                    </li>
+                    <li>
+                      <a href="#">연혁</a>
+                    </li>
+                    <li>
+                      <a href="#">사업장 안내</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>Support
+                  <ul class="depth02">
+                    <li>
+                      <a href="#">Download</a>
+                    </li>
+                    <li>
+                      <a href="#">온&middot;오프라인매장</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <button class="btn_close" type="button">
+              사이트맵닫기
+            </button>
+          </div>
+        </div>
+        <!-- // PC 사이트맵 모달 -->
+        <!-- PC 767이하 사이트맵 모달 자동  -->
+        <div class="pcs_sitemap_modal">
+          <h2>Site Map</h2>
+          <ul class="pcs_sitemap">
+            <li><a href="#">Product</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#" class="active">Task chair</a>
+                </li>
+                <li>
+                  <a href="#">Multi chair</a>
+                </li>
+                <li>
+                  <a href="#">Stool</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Components</a>
+              <ul class="depth02">
+                <li>
+                  <a href="#">Task chair</a>
+                </li>
+                <li>
+                  <a href="#">Multi chair</a>
+                </li>
+                <li>
+                  <a href="#">Stool</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Story</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">디자인&amp;필라소피</a>
+                </li>
+                <li>
+                  <a href="#">생산 및 테스트 설비</a>
+                </li>
+                <li>
+                  <a href="#">해외시장 개척</a>
+                </li>
+                <li>
+                  <a href="#">국내 해외 납품사례</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Media Center</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">참가전시회</a>
+                </li>
+                <li>
+                  <a href="#">보도자료</a>
+                </li>
+                <li>
+                  <a href="#">CM갤러리</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Company</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">회사개요</a>
+                </li>
+                <li>
+                  <a href="#">연혁</a>
+                </li>
+                <li>
+                  <a href="#">사업장 안내</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Support</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">Download</a>
+                </li>
+                <li>
+                  <a href="#">온&middot;오프라인매장</a>
+                </li>
+              </ul>
+            </li>
+          </ul>            
+          <button class="btn_close_pcs" type="button">
+            사이트맵닫기
+          </button>
+        </div>
+        <!-- // PC 767이하 사이트맵 모달 자동  -->
+        <!-- 테블릿,모바일 사이트맵 모달 -->
+        <div class="m_sitemap_modal">
+          <ul class="m_sitemap">
+            <li><a href="#">Product</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#" class="active">Task chair</a>
+                </li>
+                <li>
+                  <a href="#">Multi chair</a>
+                </li>
+                <li>
+                  <a href="#">Stool</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Components</a>
+              <ul class="depth02">
+                <li>
+                  <a href="#">Task chair</a>
+                </li>
+                <li>
+                  <a href="#">Multi chair</a>
+                </li>
+                <li>
+                  <a href="#">Stool</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Story</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">디자인&amp;필라소피</a>
+                </li>
+                <li>
+                  <a href="#">생산 및 테스트 설비</a>
+                </li>
+                <li>
+                  <a href="#">해외시장 개척</a>
+                </li>
+                <li>
+                  <a href="#">국내 해외 납품사례</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Media Center</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">참가전시회</a>
+                </li>
+                <li>
+                  <a href="#">보도자료</a>
+                </li>
+                <li>
+                  <a href="#">CM갤러리</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Company</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">회사개요</a>
+                </li>
+                <li>
+                  <a href="#">연혁</a>
+                </li>
+                <li>
+                  <a href="#">사업장 안내</a>
+                </li>
+              </ul>
+            </li>
+            <li><a href="#">Support</a> 
+              <ul class="depth02">
+                <li>
+                  <a href="#">Download</a>
+                </li>
+                <li>
+                  <a href="#">온&middot;오프라인매장</a>
+                </li>
+              </ul>
+            </li>
+          </ul>            
+          <button class="btn_close_m" type="button">
+            사이트맵닫기
+          </button>
+        </div>
+        <!-- // 테블릿,모바일 사이트맵 모달 -->
+      </header>
+      <div id="container">
+        <section class="main_visual">
+          <div class="tit_wrap animate_fade_up">
+            <h2><strong>Good</strong><br>Design</h2>
+            <p class="animate_fade_up">Companies making standards for<br>
+              Office furniture in the world</p>
+          </div>
+          <div class="swiper-container main_slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide slide01"></div>
+              <div class="swiper-slide slide02"></div>
+              <div class="swiper-slide slide03"></div>
+            </div>
+          </div>
+          <div class="pagination">
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="ico_scroll">
+						<img src="images/scroll_txt.png" alt="scroll down">	
+            <div class="circle_wrap">
+              <span class="circle"></span>
+              <span class="s_circle"></span>
+            </div>
+					</div>
+        </section>
+        <section class="main_product">
+          <div class="inner">
+            <h2 class="animate_fade_down">Chair Meister <strong>Product</strong></h2>
+            <ul class="product">
+              <li>
+                <a href="#">
+                  <div class="img_wrap animate_fade_right">
+                    <img src="images/main_product_img01.jpg" alt="">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong class="tit">CHAIRS</strong>
+                    <p class="btn_more">READ MORE</p>
+                    <i class="xi-long-arrow-right"></i>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="img_wrap animate_fade_right">
+                    <img src="images/main_product_img02.jpg" alt="">
+                  </div>
+                  <div class="txt_wrap">
+                    <strong class="tit">COMPONENTS</strong>
+                    <p class="btn_more">READ MORE</p>
+                    <i class="xi-long-arrow-right"></i>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main_story">
+          <h2 class="blind">회사스토리</h2>
+          <div class="inner animate_fade_right">
+            <!-- pc 스토리 슬라이더 -->
+            <div class="swiper-container story_slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_area">
+                      <div class="img_wrap">
+                        <img src="images/main_quick_img01.jpg" alt="">
+                        <span class="circle">써클아이콘</span>
+                        <p class="more">READ MORE</p>
+                      </div>
+                    </div>
+                    <div class="txt_wrap">
+                      <strong class="tit">디자인 & 필라소피</strong>
+                      <p class="txt">체어마이스터를 만나보세요!</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_area">
+                      <div class="img_wrap">
+                        <img src="images/main_quick_img02.jpg" alt="">
+                        <span class="circle">써클아이콘</span>
+                        <p class="more">READ MORE</p>
+                      </div>
+
+                    </div>
+                    <div class="txt_wrap">
+                      <strong class="tit">생산 및 테스트 설비</strong>
+                      <p class="txt">다양한 제품을 확인하세요.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_area">
+                      <div class="img_wrap">
+                        <img src="images/main_quick_img03.jpg" alt="">
+                        <span class="circle">써클아이콘</span>
+                        <p class="more">READ MORE</p>
+                      </div>
+                    </div>
+                    <div class="txt_wrap">
+                      <strong class="tit">고객 상담 안내</strong>
+                      <p class="txt">간편하고 손쉽게 AS를 문의하세요.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <!-- 모바일 스토리 슬라이더 -->
+            <div class="swiper-container m_story_slider animate_fade_right">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_area">
+                      <div class="img_wrap">
+                        <img src="images/main_quick_img01.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="txt_wrap">
+                      <strong class="tit">디자인 & 필라소피</strong>
+                      <p class="txt">체어마이스터를 만나보세요!</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_area">
+                      <div class="img_wrap">
+                        <img src="images/main_quick_img02.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="txt_wrap">
+                      <strong class="tit">생산 및 테스트 설비</strong>
+                      <p class="txt">다양한 제품을 확인하세요.</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="swiper-slide">
+                  <a href="#">
+                    <div class="img_area">
+                      <div class="img_wrap">
+                        <img src="images/main_quick_img03.jpg" alt="">
+                      </div>
+                    </div>
+                    <div class="txt_wrap">
+                      <strong class="tit">고객 상담 안내</strong>
+                      <p class="txt">간편하고 손쉽게 AS를 문의하세요.</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="pagination_wrap">
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="main_media">
+          <h2 class="blind">미디어센터</h2>
+          <div class="inner">
+            <div class="exhibition animate_fade_up">
+              <div class="tit_wrap">
+                <strong class="tit">Exhibition</strong>
+                <a href="#" class="btn_more">READ MORE
+                  <i class="xi-long-arrow-right"></i>
+                </a>
+              </div>
+              <div class="swiper-container exhibition_slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img src="images/ex01.jpg" alt="">
+                      <div class="txt_wrap">
+                        <p class="txt">CHAIR MEISTER GERMANY 2020</p>
+                        <em class="date">2022-05-17</em>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img src="images/ex02.jpg" alt="">
+                      <div class="txt_wrap">
+                        <p class="txt">CHAIR MEISTER Dubai Index 2019</p>
+                        <em class="date">2022-05-17</em>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img src="images/ex03.jpg" alt="">
+                      <div class="txt_wrap">
+                        <p class="txt">CHAIR MEISTER KOFURN 2019</p>
+                        <em class="date">2022-05-17</em>
+                      </div>
+                    </a>
+                  </div>
+                  <div class="swiper-slide">
+                    <a href="#">
+                      <img src="images/ex04.jpg" alt="">
+                      <div class="txt_wrap">
+                        <p class="txt">CHAIR MEISTER Germany orgatec 2016</p>
+                        <em class="date">2022-05-17</em>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-button-prev btn_arrow"><i class="xi-angle-left-min"></i></div>
+                <div class="swiper-button-next btn_arrow"><i class="xi-angle-right-min"></i></div>
+              </div>
+            </div>
+            <div class="release animate_fade_up">
+              <div class="tit_wrap">
+                <strong class="tit">Press release</strong>
+                <a href="#" class="btn_more">READ MORE
+                  <i class="xi-long-arrow-right"></i>
+                </a>
+              </div>
+              <div class="txt_wrap">
+                <a href="#">
+                  <strong>[굿모닝 중소기업]<br>체어마이스터</strong>
+                  <p class="txt">경기도는 체어마이스터 등 도내 유망 가구기업 8개사를 말레이시아 등 아세안 ..</p>
+                  <em class="date">2021.10.27</em>
+                </a>
+                <a href="#">
+                  <strong>[굿모닝 중소기업]<br>체어마이스터</strong>
+                  <p class="txt">경기도는 체어마이스터 등 도내 유망 가구기업 8개사를 말레이시아 등 아세안 ..</p>
+                  <em class="date">2021.10.27</em>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="m_release">
+            <div class="tit_wrap">
+              <strong class="tit">Press release</strong>
+              <a href="#" class="btn_more">READ MORE
+                <i class="xi-long-arrow-right"></i>
+              </a>
+            </div>
+            <div class="swiper-container mrelease_slider animate_fade_up">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="txt_wrap">
+                    <a href="#">
+                      <strong>[굿모닝 중소기업] 체어마이스터</strong>
+                      <p class="txt">경기도는 체어마이스터 등 도내 유망 가구기업 8개사를 말레이시아 등 아세안 ..</p>
+                      <em class="date">2021.10.27</em>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="txt_wrap">
+                    <a href="#">
+                      <strong>[굿모닝 중소기업] 체어마이스터</strong>
+                      <p class="txt">경기도는 체어마이스터 등 도내 유망 가구기업 8개사를 말레이시아 등 아세안 ..</p>
+                      <em class="date">2021.10.27</em>
+                    </a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="txt_wrap">
+                    <a href="#">
+                      <strong>[굿모닝 중소기업] 체어마이스터</strong>
+                      <p class="txt">경기도는 체어마이스터 등 도내 유망 가구기업 8개사를 말레이시아 등 아세안 ..</p>
+                      <em class="date">2021.10.27</em>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-button-prev btn_arrow"><i class="xi-angle-left-min"></i></div>
+              <div class="swiper-button-next btn_arrow"><i class="xi-angle-right-min"></i></div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer id="footer">
+        <div class="footer_top">
+          <div class="inner">
+            <div class="contact_left animate_fade_up">
+              <div class="tit_wrap">
+                <em>Contact</em>
+                <p class="tit"><strong>온라인 문의</strong>를 통해<br>간편하게 문의해보세요.</p>
+                <p class="txt">입력해주신 정보는 저장되거나 공개되지 않으며<br>
+                  담당자 이메일로 발송됩니다.</p>
+              </div>
+            </div>
+            <div class="contact_right">
+              <form>
+                <fieldset>
+                  <legend>온라인문의작성하기</legend>
+                  <div class="inquiry_wrap">
+                    <ul class="form">
+                      <li class="animate_fade_right01">
+                        <div class="tit">이름<span class="star">*</span></div>
+                        <input type="text" title="이름입력">                
+                      </li>
+                      <li class="animate_fade_right02">
+                        <div class="tit_long">기관 또는 기업<span class="star">*</span></div>
+                        <input class="long" type="text" title="기관기업입력">
+                      </li>
+                      <li class="animate_fade_right03">
+                        <div class="tit">이메일<span class="star">*</span></div>
+                        <input type="text" title="이메일입력">
+                      </li>
+                      <li class="animate_fade_right04">
+                        <div class="tit">연락처<span class="star">*</span></div>
+                        <input type="text" title="연락처입력">
+                      </li>
+                      <li class="animate_fade_right05">
+                        <div class="tit_box">문의사항<em class="noto">(1000자 이내)</em></div>
+                        <textarea cols="30" rows="10" maxlength="1000"></textarea>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="inquiry_bottom">
+                    <div class="checkbox_wrap animate_fade_right06">
+                      <input id="agree" class="blind" type="checkbox">
+                      <label for="agree"><i class="xi-check-min"></i><a class="agree_list" href="#">개인정보처리방침</a> 에 동의합니다.</label>
+                    </div>
+                    <div class="policy_modal">
+                      <div class="inner">
+                        <a class="btn_close_policy" href="#"></a>
+                        <h2>개인정보처리방침</h2>
+                        <div class="policy_wrap">
+                          <div class="policy_txt">
+                            <br>
+                            <p>&lt;회사명칭&gt;(이하 '회사')은(는) 개인정보보호법에 따라 이용자의 개인정보 보호 및 권익을 보호하고 개인정보와 관련한 이용자의 고충을
+                              원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.</p>
+                            <p>'회사' 개인정보처리방침을 개정하는 경우 웹사이트 공지사항(또는 개별공지)을 통하여 공지할 것입니다.</p>
+                            <p><br></p>
+                            <p>○ 본 방침은부터 2021년 1월 1일부터 시행됩니다.</p>
+                            <p><br></p>
+                            <p>1. 개인정보의 처리 목적 '회사'는 개인정보를 다음의 목적을 위해 처리합니다. 처리한 개인정보는 다음의 목적이외의 용도로는 사용되지 않으며 이용
+                              목적이 변경될 시에는 사전동의를 구할 예정입니다.</p>
+                            <p><br></p>
+                            <p>가. 홈페이지 회원가입 및 관리</p>
+                            <p>회원제 서비스 제공에 따른 본인 식별·인증, 제한적 본인확인제 시행에 따른 본인확인, 서비스 부정이용 방지 등을 목적으로 개인정보를 처리합니다.
+                            </p>
+                            <p><br></p>
+                            <p>나. 민원사무 처리</p>
+                            <p>민원인의 신원 확인, 민원사항 확인, 사실조사를 위한 연락·통지, 처리결과 통보 등을 목적으로 개인정보를 처리합니다.</p>
+                            <p><br></p>
+                            <p>다. 재화 또는 서비스 제공</p>
+                            <p>서비스 제공 등을 목적으로 개인정보를 처리합니다.</p>
+                            <p><br></p>
+                            <p>라. 마케팅 및 광고에의 활용</p>
+                            <p>서비스의 유효성 확인, 접속빈도 파악 또는 회원의 서비스 이용에 대한 통계 등을 목적으로 개인정보를 처리합니다.</p>
+                            <p><br></p>
+                            <p>2. 개인정보 파일 현황</p>
+                            <p><br></p>
+                            <p>1. 개인정보 파일명 : 개인정보</p>
+                            <p>개인정보 항목 : 이메일, 휴대전화번호, 회사전화번호, 직책, 부서, 회사명, 접속 로그, 접속 IP 정보, 법정대리인 이름</p>
+                            <p>수집방법 : 홈페이지</p>
+                            <p>보유근거 : 개인정보동의</p>
+                            <p>보유기간 : 3년</p>
+                            <p>관련법령 : 신용정보의 수집/처리 및 이용 등에 관한 기록 : 3년, 소비자의 불만 또는 분쟁처리에 관한 기록 : 3년, 계약 또는 청약철회 등에
+                              관한 기록 : 5년</p>
+                            <p><br></p>
+                            <p>3. 개인정보의 처리 및 보유 기간</p>
+                            <p>① '회사'는 법령에 따른 개인정보 보유·이용기간 또는 정보주체로부터 개인정보를 수집시에 동의 받은 개인정보 보유,이용기간 내에서 개인정보를
+                              처리,보유합니다.</p>
+                            <p>② 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다.</p>
+                            <p><br></p>
+                            <p>1.&lt;민원사무 처리&gt;</p>
+                            <p>&lt;민원사무 처리&gt;와 관련한 개인정보는 수집.이용에 관한 동의일로부터&lt;3년&gt;까지 위 이용목적을 위하여 보유.이용됩니다.</p>
+                            <p>보유근거 : 개인정보 동의</p>
+                            <p>관련법령 : 1)소비자의 불만 또는 분쟁처리에 관한 기록 : 3년</p>
+                            <p>2) 계약 또는 청약철회 등에 관한 기록 : 5년</p>
+                            <p>예외사유 :</p>
+                            <p><br></p>
+                            <p>4. 개인정보의 제3자 제공에 관한 사항</p>
+                            <p>① '회사'는 정보주체의 동의, 법률의 특별한 규정 등 개인정보 보호법 제17조 및 제18조에 해당하는 경우에만 개인정보를 제3자에게 제공합니다.
+                            </p>
+                            <p>② '회사'는 다음과 같이 개인정보를 제3자에게 제공하고 있습니다.</p>
+                            <p><br></p>
+                            <p>1. '회사'</p>
+                            <p>개인정보를 제공받는 자 : '회사'</p>
+                            <p>제공받는 자의 개인정보 이용목적 : 이메일, 휴대전화번호, 성별, 생년월일, 이름, 회사전화번호, 직책, 부서, 회사명, 법정대리인 이름, 법정대리인
+                              휴대전화번호</p>
+                            <p>제공받는 자의 보유.이용기간: 3년</p>
+                            <p><br></p>
+                            <p>5. 정보주체와 법정대리인의 권리·의무 및 그 행사방법 이용자는 개인정보주체로써 다음과 같은 권리를 행사할 수 있습니다.</p>
+                            <p>① 정보주체는 주식회사 '회사'에 대해 언제든지 개인정보 열람,정정,삭제,처리정지 요구 등의 권리를 행사할 수 있습니다.</p>
+                            <p>② 제1항에 따른 권리 행사는주식회사 '회사'에 대해 개인정보 보호법 시행령 제41조제1항에 따라 서면, 전자우편, 모사전송(FAX) 등을 통하여
+                              하실 수 있으며 '회사'는 이에 대해 지체 없이 조치하겠습니다.</p>
+                            <p>③ 제1항에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 개인정보 보호법 시행규칙 별지
+                              제11호 서식에 따른 위임장을 제출하셔야 합니다.</p>
+                            <p>④ 개인정보 열람 및 처리정지 요구는 개인정보보호법 제35조 제5항, 제37조 제2항에 의하여 정보주체의 권리가 제한 될 수 있습니다.</p>
+                            <p>⑤ 개인정보의 정정 및 삭제 요구는 다른 법령에서 그 개인정보가 수집 대상으로 명시되어 있는 경우에는 그 삭제를 요구할 수 없습니다.</p>
+                            <p>⑥ '회사'는 정보주체 권리에 따른 열람의 요구, 정정·삭제의 요구, 처리정지의 요구 시 열람 등 요구를 한 자가 본인이거나 정당한 대리인인지를
+                              확인합니다.</p>
+                            <p><br></p>
+                            <p>6. 처리하는 개인정보의 항목 작성</p>
+                            <p>① '회사'는 다음의 개인정보 항목을 처리하고 있습니다.</p>
+                            <p><br></p>
+                            <p>1&lt;민원사무 처리&gt;</p>
+                            <p>필수항목 : 이메일, 휴대전화번호, 회사전화번호, 직책, 부서, 회사명, 법정대리인 이름, 법정대리인 휴대전화번호</p>
+                            <p>- 선택항목 :</p>
+                            <p><br></p>
+                            <p>7. 개인정보의 파기 '회사'는 원칙적으로 개인정보 처리목적이 달성된 경우에는 지체없이 해당 개인정보를 파기합니다. 파기의 절차, 기한 및 방법은
+                              다음과 같습니다.</p>
+                            <p><br></p>
+                            <p>-파기절차</p>
+                            <p>이용자가 입력한 정보는 목적 달성 후 별도의 DB에 옮겨져(종이의 경우 별도의 서류) 내부 방침 및 기타 관련 법령에 따라 일정기간 저장된 후 혹은
+                              즉시 파기됩니다. 이 때, DB로 옮겨진 개인정보는 법률에 의한 경우가 아니고서는 다른 목적으로 이용되지 않습니다.</p>
+                            <p><br></p>
+                            <p>-파기기한</p>
+                            <p>이용자의 개인정보는 개인정보의 보유기간이 경과된 경우에는 보유기간의 종료일로부터 5일 이내에, 개인정보의 처리 목적 달성, 해당 서비스의 폐지,
+                              사업의 종료 등 그 개인정보가 불필요하게 되었을 때에는 개인정보의 처리가 불필요한 것으로 인정되는 날로부터 5일 이내에 그 개인정보를 파기합니다.
+                            </p>
+                            <p><br></p>
+                            <p>-파기방법</p>
+                            <p><br></p>
+                            <p>전자적 파일 형태의 정보는 기록을 재생할 수 없는 기술적 방법을 사용합니다</p>
+                            <p><br></p>
+                            <p>8. 개인정보 자동 수집 장치의 설치•운영 및 거부에 관한 사항</p>
+                            <p><br></p>
+                            <p>'회사' 은 정보주체의 이용정보를 저장하고 수시로 불러오는 ‘쿠키’를 사용하지 않습니다.</p>
+                            <p><br></p>
+                            <p><br></p>
+                            <p>9. 개인정보 보호책임자 작성</p>
+                            <p>① '회사'는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만처리 및 피해구제 등을 위하여 아래와 같이
+                              개인정보 보호책임자를 지정하고 있습니다.</p>
+                            <p><br></p>
+                            <p>▶ 개인정보 보호책임자</p>
+                            <p>성명 :</p>
+                            <p>직책 :</p>
+                            <p>직급 :</p>
+                            <p>연락처 :</p>
+                            <p><br></p>
+                            <p>② 정보주체께서는 '회사' 의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만처리, 피해구제 등에 관한 사항을 개인정보
+                              보호책임자 및 담당부서로 문의하실 수 있습니다. '회사'는 정보주체의 문의에 대해 지체 없이 답변 및 처리해드릴 것입니다.</p>
+                            <p><br></p>
+                            <p>10. 개인정보 처리방침 변경</p>
+                            <p>①이 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경내용의 추가, 삭제 및 정정이 있는 경우에는 변경사항의 시행 7일 전부터
+                              공지사항을 통하여 고지할 것입니다.</p>
+                            <p><br></p>
+                            <p>11. 개인정보의 안전성 확보 조치 '회사'는 개인정보보호법 제29조에 따라 다음과 같이 안전성 확보에 필요한 기술적/관리적 및 물리적 조치를 하고
+                              있습니다.</p>
+                            <p><br></p>
+                            <p>1. 개인정보 취급 직원의 최소화 및 교육</p>
+                            <p>개인정보를 취급하는 직원을 지정하고 담당자에 한정시켜 최소화 하여 개인정보를 관리하는 대책을 시행하고 있습니다.</p>
+                            <p><br></p>
+                            <p>2. 해킹 등에 대비한 기술적 대책</p>
+                            <p>'회사' 는 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 막기 위하여 보안프로그램을 설치하고 주기적인 갱신·점검을 하며 외부로부터
+                              접근이 통제된 구역에 시스템을 설치하고 기술적/물리적으로 감시 및 차단하고 있습니다.</p>
+                            <p><br></p>
+                            <p>3. 개인정보의 암호화</p>
+                            <p>이용자의 개인정보는 비밀번호는 암호화 되어 저장 및 관리되고 있어, 본인만이 알 수 있으며 중요한 데이터는 파일 및 전송 데이터를 암호화 하거나 파일
+                              잠금 기능을 사용하는 등의 별도 보안기능을 사용하고 있습니다.</p>
+                            <p><br></p>
+                            <p>4. 접속기록의 보관 및 위변조 방지</p>
+                            <p>개인정보처리시스템에 접속한 기록을 최소 6개월 이상 보관, 관리하고 있으며, 접속 기록이 위변조 및 도난, 분실되지 않도록 보안기능 사용하고
+                              있습니다.</p>
+                            <p><br></p>
+                            <p>5. 비인가자에 대한 출입 통제</p>
+                            <p>개인정보를 보관하고 있는 물리적 보관 장소를 별도로 두고 이에 대해 출입통제 절차를 수립, 운영하고 있습니다.</p>
+                            </div><br><br>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="btn_wrap animate_fade_right07">
+                      <a href="#">온라인 문의</a>
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="inner">
+            <div class="bottom_left">
+              <img src="images/footer_logo.png" alt="체어마이스터로고">
+                <div class="footer_menu">
+                  <div class="hotline">
+                    <p><span>Hot line</span>+82-31-982-3915</p>
+                  </div>
+                  <div class="address01">
+                    <p>Address : 99-4, Gahyeonro 85-gil, Tongjin, Gimpo, Gyeonggi, Korea</p>
+                    <p>Tel : +82-31-982-3915</p>
+                  </div>
+                  <div class="address02">
+                    <p><a href="mailto:sales@winwincm.com">E-Mail : sales@winwincm.com</a></p>
+                    <p>Business Registration Number : 132-86-21927</p>
+                  </div>
+                  <p class="copyright">Copyright (c) 2021 Chair Meister ALL Rights Reserved.</p>
+                </div>
+            </div>
+            <div class="bottom_right">
+              <div class="btn_wrap">
+                <ul class="family_site">
+                  <li><a href="" target="_blank" title="새창으로열기">Family Site1</a>
+                  </li>
+                  <li><a href="" target="_blank" title="새창으로열기">Family Site2</a>
+                  </li>
+                  <li><a href="" target="_blank" title="새창으로열기">Family Site3</a>
+                  </li>
+                </ul>
+                <button class="btn_up" type="button">Family Site<i class="xi-plus-min"></i></button>
+              </div>
+              <div class="policy">
+                <a class="agree_list" href="#">개인정보처리방침</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="top_wrap">
+          <a class="btn_top" href="#"><i class="xi-long-arrow-up"></i>TOP</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
